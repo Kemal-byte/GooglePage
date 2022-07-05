@@ -1,0 +1,71 @@
+body{
+  background-color: white;
+}
+#logoText {
+  position: relative;
+  float:right;
+  top: -200px;
+  -webkit-text-stroke: 2px red;
+}
+
+.top {
+  margin-top: 12px;
+  font-family: "Arial", sans-serif;
+  font-size:20px;
+}
+.top-left {
+  //
+  float:left;
+  margin-left:20px;
+}
+.top-right{
+  float:right;
+  margin-right: 20px;
+}
+.logo {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.Bar {
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  text-align: center;
+  width: 500px;
+  border-radius: 30px;
+
+}
+.searchButtons{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  width: 700px;
+}
+.space{
+  width:40px;
+}
+
+#inputBox{
+  width:600px;
+  height: 40px;
+  padding-left:40px;
+  padding-right:40px;
+  border-radius: 20px;
+  position: absolute;
+  border: solid 1px lightgrey;
+  transform: translate(-50%,-50%);
+
+}
+#icon{
+
+  left: -60px;
+  position: absolute;
+  height: 25px;
+}
+

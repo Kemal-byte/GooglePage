@@ -1,0 +1,55 @@
+%topStyling {
+    display:flex;
+    align-items: center;
+    padding: 8px;
+    flex-grow: 1;
+    margin-bottom: 10px;
+    // This is for the upper left and right side of the content on the google page.
+    
+}
+%middleOf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    // This is for the search engine bar
+}
+
+.right{
+    @extend %topStyling;
+    float:right;
+}
+
+.left{
+    @extend %topStyling;
+    float:left;
+}
+
+.googleImage {
+    height: 92;
+    width: 272;
+    position: absolute;
+    bottom: 45px;
+}
+.searchBar{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.button{
+    display: inline-flex;
+}
+
+
+.search {
+    @extend %middleOf;
+
+}
