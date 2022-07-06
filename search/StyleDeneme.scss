@@ -4,8 +4,9 @@ body{
 #logoText {
   position: relative;
   float:right;
-  top: -200px;
-  -webkit-text-stroke: 2px red;
+  top: 70px;
+  right: 50px;
+  color: #4285F4;
 }
 
 .top {
@@ -24,11 +25,25 @@ body{
 }
 .logo {
   position: absolute;
-  top: 25%;
+  top: 35%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
 .Bar {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  text-align: center;
+  width: 500px;
+  border-radius: 30px;
+
+}
+.imageSearchBar {
+  background-color: white;
   display: flex;
   justify-content: center;
   top: 50%;
@@ -68,4 +83,12 @@ body{
   position: absolute;
   height: 25px;
 }
+#aka{
+  display: flex;
+  justify-content: center;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  position: absolute;
 
+}
