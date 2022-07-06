@@ -12,7 +12,7 @@ body{
 .top {
   margin-top: 12px;
   font-family: "Arial", sans-serif;
-  font-size:20px;
+  font-size:14px;
 }
 .top-left {
   //
@@ -61,16 +61,26 @@ body{
   align-items: center;
   margin-top: 20px;
   width: 700px;
+  font-size: 14px;
+  font-family: arial,sans-serif;
+  color:#202124;
 }
 .space{
   width:40px;
 }
-
+.search-icon{
+  position: relative;
+  right: -230px;
+  padding-right: 10px;
+  top: -11px;
+  color: #4285F4;
+}
 #inputBox{
   width:600px;
   height: 40px;
-  padding-left:40px;
-  padding-right:40px;
+  padding-left:50px;
+  padding-right:50px;
+  padding-bottom:4px;
   border-radius: 20px;
   position: absolute;
   border: solid 1px lightgrey;
@@ -90,5 +100,13 @@ body{
   left: 50%;
   transform: translate(-50%,-50%);
   position: absolute;
+
+}
+#okay{
+  position: relative;
+  left: -290px;
+  padding-left: 10px;
+  top: -11px;
+  color: grey;
 
 }
