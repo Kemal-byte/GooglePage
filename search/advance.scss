@@ -1,0 +1,90 @@
+body{
+  font-family: arial,sans-serif;
+  padding:0;
+  position:relative;
+  min-height:100%;
+  border:0;
+  vertical-align: baseline;
+  margin:0;
+}
+
+.topHeader{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.appbar {
+  font-size: 20px;
+  color:#d93025;
+  margin: 25px 35px;
+  font-family: inherit;
+}
+.line {
+  border-bottom: 1px solid #ebebeb;
+  margin:0;
+  padding:0;
+}
+.form{
+  margin:40px 2% 0 45px;
+  max-width: 1140px;
+  min-width: 200px;
+  width:96%;
+}
+.entry{
+  float:left;
+  display:inline-block;
+  min-width: 167px;
+  height:42px;
+  width:16%;
+  color:#222;
+  font-size: 13px;
+  line-height: 16px;
+  vertical-align: middle;
+}
+.top{
+  float:left;
+  display: inline-block;
+  min-width:167px;
+  width: 16%;
+  font-size: 16px;
+  min-height: 42px;
+  font-weight: 500;
+  color:#333;
+  vertical-align:middle;
+}
+.bosluk{
+  float: left;
+  display: inline-block;
+  min-width: 167px;
+  min-height: 41px;
+  vertical-align: middle;
+  width: 50%;
+}
+.solust{
+  float: left;
+  display: inline-block;
+  width: 32%;
+  min-width: 160px;
+  margin: 0 0 8px 1%;
+  font-size: 13px;
+  font-weight: 700;
+  color: #555;
+  position:relative;
+  padding-left: 5px;
+  vertical-align: middle;
+}
+.solustIc{
+  height: 30px;
+  display: table-cell;
+  vertical-align: middle;
+  clear: both;
+}
+.a{
+  height: 30px;
+  display: table-cell;
+  float:left;
+  vertical-align: middle;
+}
+#Googlelogo{
+  width: 70px;
+  height:auto;
+}
