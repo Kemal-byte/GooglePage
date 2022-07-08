@@ -15,7 +15,8 @@ resemble the original google pages.
 
 
 
+### Current obstacles
 
+In the advance section of the html pages, I have attempted to recreate the original using the inspection method. However
+it was too complicated and messed up my tables. Now I will try simpler methods with less div. 
 
-
-Last updated 2022-07-06 12:18:44 Wednesday
