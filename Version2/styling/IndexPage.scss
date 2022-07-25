@@ -9,6 +9,12 @@ html, body {
     font-family: Arial, Helvetica, sans-serif;
     color:#202124;
 }
+a:link{
+    color:black;
+}
+a:visited{
+    color: black;
+}
 .mainContainer{
     display:flex;
     flex-direction: column;
@@ -29,17 +35,18 @@ html, body {
 }
 .top3{
     display: inline-block;
+    text-decoration: none;
     line-height: 24px;
     vertical-align: middle;
     padding-left: 15px;
 }
-.top4{
+.top3:link{
+    color: #3c4043;
+}
+.top4:link{
     font-size: 13px;
     padding: 0 4px;
     flex: 0 0 auto;
-}
-.top3:hover{
-    text-decoration: underline;
 }
 
 .logoSection{
@@ -96,16 +103,31 @@ html, body {
     width: auto;
     max-width: 584px;
 }
+.arama:hover{
+    -webkit-box-shadow: 0 0 10px #dfe1dfe5;
+        box-shadow: 0 0 10px #dfe1dfe5;
+}
 .search2 {
     flex: 1;
     display: flex;
     padding: 5px 8px 0 14px;
 }
-// *, *:before, *:after {
-//     box-sizing: content-box;
-//     // I don't know what are the syntax here, I found the solution from,
-//     // https://css-tricks.com/box-sizing/
-//   }
+
+element.style {
+}
+.arama {
+    display: flex;
+    z-index: 3;
+    height: 44px;
+    background-color: #fff;
+    border: 1px solid #dfe1dfe5;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    max-width: 584px;
+}
+
 .searchlogo{
     display: flex;
     align-items: center;
@@ -151,6 +173,7 @@ html, body {
     margin-top: -5px;
     align-items: stretch;
     flex-direction: row;
+    box-sizing: content-box;
 }
 .keyboard{
     flex: 1 0 auto;
@@ -163,13 +186,113 @@ html, body {
     padding: 0 8px;
     width: 24px;
     line-height: 44px;
+    box-sizing: content-box;
 }
 .keyboard1{
     background: url('//www.gstatic.com/inputtools/images/tia.png') no-repeat center;
     height: 24px;
     width: 24px;
     vertical-align: middle;
+    box-sizing: content-box;
+}
+.keyboard2{
+    background: url('Version2\html\images.html') no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+    box-sizing: content-box;
 }
 .keyboard-icon{
     visibility: hidden;
+}
+.buttons-section{
+    height: 70px;
+    padding-top: 18px;
+}
+center{
+    display: block;
+    text-align: -webkit-center;
+}
+%buttons{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    border-radius: 4px;
+    color: #3c4043;
+    margin:11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;   // I don't know what that is
+    user-select: none; // I don't know this neither
+}
+.button1:hover, .button2:hover{
+    border: 1px solid;
+    border-color:#dfe1dfe5;
+    
+    // box-shadow: 5px red;
+}
+
+.button1{
+    @extend %buttons;
+}
+.button2{
+    @extend %buttons;
+}
+.images-text{
+    color: #4285f4;
+    font: 16px/16px roboto-regular, arial, sans-serif;
+    position:absolute;
+    left: 215px;
+    // float: left;
+    bottom: 0;
+    white-space: nowrap;
+}
+.searchbar-sag-iconlar{
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+}
+.photo-icon, .microphone-icon, .magnifying-glass-icon{
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+}
+%icons{
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+    // Normally I could be able to extend the attributes without any complications but 
+    // for some reason it makes the icon 4 times bigger.
+    // I don't know why
+}
+.phone-icon-url{
+    // @extend %icons;
+    background: url('//www.gstatic.com/images/icons/material/system/2x/photo_camera_grey600_24dp.png') 0 0 no-repeat;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+}
+.microphone-icon-url{
+    // @extend %icons;
+    background: url('..//images/Google\ microphone\ icon.png') no-repeat center;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
+}
+.magnifying-glass-icon-url{
+    background: url('../images/pngwing.com.png') no-repeat center;
+    height: 24px;
+    width: 24px;
+    background-size: 24px;
 }
