@@ -16,3 +16,11 @@ resemble the original google pages.
 
 The advanced search page become way longer than I have anticipated, I should find a way to hide the options so it doesn't looks like a long read book. 
 
+### Snippets from the project
+<br><br>
+![alt text](/snippets/Screenshot%20(10).png)
+*Advanced Search Page*
+![alt text](/snippets/Screenshot%20(11).png)
+*Index Home Search Page*
+![alt text](/snippets/Screenshot%20(12).png)
+*Google Images Search Page*
