@@ -1,0 +1,232 @@
+body{
+    min-height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    display: block;
+    font-family: arial, sans-serif;
+}
+.bottom-wrapper{
+    min-height: 100%;
+    margin: 0 auto -60px;
+}
+.head{
+    background-color: white;
+    min-width: 320px;
+    position: relative;
+    transition: box-shadow 250ms;
+}
+.head1{
+    box-sizing: border-box;
+    padding: 8px;
+    width: 100%;
+    position: relative;
+    color: white;
+}
+.go-back{
+    color: #000;;
+    position: relative;
+    float:right;
+    padding-right: 10px;
+    font-size: 14px;
+    top:-35px;
+}
+.go-back a{
+    text-decoration: none;
+    font: 14px;
+}
+.go-back:hover{
+    text-decoration: underline;
+}
+
+.head-right{
+    flex: 1 1 auto;
+    overflow: hidden;
+    padding-right: 30px;
+    box-sizing: border-box;
+    height: 48px;
+    vertical-align: middle;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+}
+.head-right img{
+    height: 24px;
+    width: 74px;
+    padding-left: 12px;
+}
+.Advanced-Search{
+    font-size: 20px;
+    padding-left: 10px;
+    margin:25px 35px;
+    color:  #d93025;
+}
+.HR{
+    // color: #3c4043;
+    border-bottom: 1px solid #ebebeb;
+}
+.form-around{
+    max-width: 1140px;
+    min-width: 200px;
+    width: 96%;
+    margin: 40px 2% 0 45px;
+}
+.ot{
+    width: 100%;
+    clear: both;
+}
+.before-input-1{
+    color: #333;
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    font-size: 16px;
+    min-height: 42px;
+    font-weight: 500;
+    vertical-align: middle;
+}
+.iot{
+    height: 30px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.before-middle{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+}
+.before-end{
+    color:#333;
+    float: left;
+    display: inline-block;
+    width: 33%;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 5px;
+    vertical-align: middle;
+}
+.clean{
+    clear:both;
+}
+.F1{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    width: 16%;
+    height: 42px;
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+    vertical-align: middle;
+}
+.F2{
+    float: left;
+    display: inline-block;
+    min-width: 167px;
+    min-height: 41px;
+    vertical-align: middle;
+    width: 50%;
+    color: #222;
+}
+.F2-1{
+    padding-right: 16px;
+}
+.F2-2{
+    width: 100%;
+    text-align: left;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+    height: 25px;
+    padding: 1px 8px;
+    border-radius: 1px;
+}
+.F2-21{
+    width: 572px;
+    text-align: left;
+    border: 1px solid #d9d9d9;
+    font-size: 13px;
+    height: 29px;
+    // padding: 1px 8px;
+    border-radius: 1px; 
+}
+.F3{
+    float: left;
+    display: inline-block;
+    width: 32%;
+    min-width: 160px;
+    margin: 0 0 8px 1%;
+    color: #555;
+    font-size: 11px;
+    padding-left: 5px;
+    vertical-align: middle;
+    position: relative;
+}
+.F3-1{
+    font-size:11px;
+    font-family:monospace; 
+    color: #666;
+    white-space: pre;
+}
+.long-line{
+    margin: 18px 0px;
+    clear: both;
+    border-top: 1px solid #ebebeb;
+}
+.drowdown{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-indent: 4px;
+    border-radius: 2px;
+    background-color: #f5f5f5;
+    background-image: -webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    border: 1px solid #dcdcdc;
+    color: #444;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 27px;
+    list-style: none;
+    margin: 0 2px;
+    min-width: 46px;
+    outline: none;
+    text-decoration: none;
+    position: relative;
+    display: inline;
+}
+.list{
+    line-height: 27px;
+    list-style: none;
+    cursor: default;
+    color: #444;
+}
+select{
+    // -webkit-appearance: none;
+    // appearance: none;
+}
+#languages{
+    padding-top: 1px;
+    padding-bottom: 1px;
+    color: #333;
+}
+.jfk-button-action{
+    box-shadow: none;
+    background-color: #4d90fe;
+    background-image: -webkit-linear-gradient(top,#4d90fe,#4787ed);
+    border: 1px solid #3079ed;
+    color: #fff;
+}
+.jfk-button{
+    border-radius: 2px;
+    cursor: default;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    white-space: nowrap;
+}
